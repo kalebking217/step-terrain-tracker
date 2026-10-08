@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "step-terrain-tracker",
+    "slug": "step-terrain-tracker",
+    "version": "1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMotionUsageDescription": "This app needs access to motion sensors to count your steps.",
+        "NSLocationWhenInUseUsageDescription": "This app needs location access to track elevation changes and terrain."
+      }
+    },
+    "android": {
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }
+}
